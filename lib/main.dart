@@ -15,7 +15,7 @@ Future initalization ()async{
   await Get.putAsync(() => SettingServices().init());
 }
 class MyApp extends StatelessWidget {
-//don't use GerView in GetMaterialApp
+//don't use GerView in GetMaterialApp instead of StatelessWidget
    MyApp({Key? key}) : super(key: key);
   SettingServices controller = Get.find();
   @override
