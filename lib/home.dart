@@ -49,7 +49,6 @@ class Home extends StatelessWidget {
               onPressed: () {
                 Get.changeTheme(Theam().DarkMode);
                 controller.sharepref?.setBool("Mode", true);
-               // sharepref?.setBool("Mode", true);
                  control.check();
                 print("======DarkMod=======> ${controller.sharepref?.getBool("Mode")}");
               },
